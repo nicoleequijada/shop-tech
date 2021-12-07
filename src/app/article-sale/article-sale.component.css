@@ -26,3 +26,13 @@
 .description h5 p a{
     align-items: center;
 }
+.button-add{
+    margin-top: 5%;
+    color: #4b3863;
+    border: 1px solid #4b3863;
+    background-color: white;
+}
+.button-add:hover{
+    color:#FDF3FF;
+    background-color: #C471D3 ;
+}
