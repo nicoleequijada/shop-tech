@@ -1,0 +1,32 @@
+.promotion{
+    background-color: #FDF3FF;
+}
+
+.promotion img{
+    width: 70%;
+}
+.promotion h1{
+    margin-bottom: 10%;
+}
+
+.description{
+    text-align: center;
+}
+.description h5{
+    margin-bottom: 10%;
+}
+.product-promotion{
+    text-align: center;
+}
+.img-promotion{
+   text-align: center;
+}
+.button-add{
+    margin-top: 5%;
+    color: #4b3863;
+    border: 1px solid #4b3863;
+}
+.button-add:hover{
+    color:#FDF3FF;
+    background-color: #C471D3 ;
+}

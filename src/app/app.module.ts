@@ -7,6 +7,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { OptionsComponent } from './options/options.component';
 import { ArticleSaleComponent } from './article-sale/article-sale.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
+import { PromotionalItemComponent } from './promotional-item/promotional-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
     CarouselComponent,
     OptionsComponent,
     ArticleSaleComponent,
-    NewArrivalsComponent
+    NewArrivalsComponent,
+    PromotionalItemComponent
   ],
   imports: [
     BrowserModule
