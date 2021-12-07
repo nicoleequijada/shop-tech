@@ -1,0 +1,33 @@
+.new-arrivals{
+    background-color: #FDF3FF;
+}
+.title-arrivals{
+    text-align: center;
+    margin-top: 3%;
+    padding: 5%;
+    
+}
+img{
+    width: 100%;
+}
+
+.big{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.big img{
+    width: 40%;
+}
+.medium{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.medium img{
+    width: 70%;
+    align-items: center;
+}
+

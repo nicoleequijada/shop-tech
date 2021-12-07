@@ -5,11 +5,23 @@
 .img{
     width: 60%;
    
+   
 }
 .items{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
     margin-bottom: 6%;
     align-items: center;
+    box-shadow: 5px 5px 4px #0b164152;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.items:hover{
+    cursor: pointer;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
 }
 .description h5 p a{
     align-items: center;
