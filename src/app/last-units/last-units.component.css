@@ -1,0 +1,26 @@
+.last-units{
+    margin-top: 10%;
+}
+.last-units img{
+    width: 60%;
+}
+.last-units h5, p{
+    text-align: center;
+}
+
+.last-units h2{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.button-add{
+    margin-top: 5%;
+    color: #4b3863;
+    border: 1px solid #4b3863;
+   justify-content: center;
+}
+.button-add:hover{
+    color:#FDF3FF;
+    background-color: #C471D3 ;
+}
