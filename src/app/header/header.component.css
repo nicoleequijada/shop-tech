@@ -1,0 +1,39 @@
+.header{
+    background: linear-gradient(0deg, rgb(169,94,204), rgb(148,71,217));
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.header h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+.search{
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #ffff;
+    color: rgb(150, 150, 150);
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons button{
+    background-color: transparent;
+    border: transparent;
+    color: #FDF3FF;
+    width: 15%;
+}
+.icons button:hover{
+    box-shadow:2px 2px 2px 2px rgba(1, 1, 1, 0.2);
+}
+.icons span{
+    font-size: 1.5rem;
+   color: #FDF3FF;
+   margin-left: 8%;
+   
+}

@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wj91cs');
+  src:  url('fonts/icomoon.eot?wj91cs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wj91cs') format('truetype'),
+    url('fonts/icomoon.woff?wj91cs') format('woff'),
+    url('fonts/icomoon.svg?wj91cs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-spinner11:before {
+  content: "\e984";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-menu3:before {
+  content: "\e9bf";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+
+
+  h1, h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+
+  body, input[type="text"], button {
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Georgia, serif;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
