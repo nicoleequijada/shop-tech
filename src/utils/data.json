@@ -1,0 +1,45 @@
+{
+    "Data": [
+        {
+            "id":1,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        },
+        {
+            "id":2,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        },
+        {
+            "id":3,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        },
+        {
+            "id":4,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        },
+        {
+            "id":5,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        },{
+            "id":6,
+            "name":"iphone 13 pro",
+            "description":"pantalla6.0" ,
+            "price":"1.230.000",
+            "img":"https://i.postimg.cc/sfGN8H9x/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        }
+    ]
+}
