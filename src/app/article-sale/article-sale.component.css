@@ -36,3 +36,38 @@
     color:#FDF3FF;
     background-color: #C471D3 ;
 }
+.contcinta{
+  margin-left: 90%;
+}
+.cintaver {
+    position:relative;
+    width:50px;
+    height:40px;
+    background: #9a0808;
+    background: linear-gradient(to bottom, #9e0b0b 0%,#bf3624 3%,#9a0808 13%,#9a0808 18%,#c43b29 60%,#bc2e1e 74%,#9a0808 100%,#9a0808 100%);
+    }
+    .cintaver:before {
+        position:relative;
+        top:40px;
+        display:block;
+        width:0;
+        height:0;
+        border-width: 25px;
+        border-style:solid;
+        border-color:#9A0808 #9A0808 transparent #9A0808;
+        content:"";
+        
+        }
+        .cintaver:after {
+            position:absolute;
+            top: 0;
+            left: 0px;
+            padding: 10px 0 0 0;
+            width: 50px;
+            height:70px;  
+            color:#FDF3FF;         
+            content: "OFERTA";  
+            text-align:center;
+            text-shadow: 1px 0px  #cc3d29;
+            font:normal bold 0.5rem arial, serif;
+            }

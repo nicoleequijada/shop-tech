@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { products } from 'src/utils/products';
 
 @Component({
   selector: 'app-article-sale',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article-sale.component.css']
 })
 export class ArticleSaleComponent implements OnInit {
-
+  
   constructor() { }
-
+  productsSale = products;
+  prueba = "hola"
+  notify = ()=>{
+    alert('promo')
+  }
+  
   ngOnInit(): void {
   }
-
+  
 }
