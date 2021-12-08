@@ -9,6 +9,7 @@ import { ArticleSaleComponent } from './article-sale/article-sale.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { PromotionalItemComponent } from './promotional-item/promotional-item.component';
 import { LastUnitsComponent } from './last-units/last-units.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LastUnitsComponent } from './last-units/last-units.component';
     ArticleSaleComponent,
     NewArrivalsComponent,
     PromotionalItemComponent,
-    LastUnitsComponent
+    LastUnitsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
