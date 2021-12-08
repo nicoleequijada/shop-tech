@@ -1,5 +1,33 @@
 .footer{
     background: linear-gradient(0deg, rgb(163,90,205), rgb(129,56,219));
     width: 100%;
-    height: 10vh;
+    padding-top: 5%;
+ 
+}
+.title-suscripciones h4, h5{
+color: #FDF3FF;
+text-align: center;
+font-weight: 400;
+padding: 0.5rem;
+}
+.search{
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #ffff;
+    color: rgb(150, 150, 150);
+    margin-top: 2rem; 
+   
+}
+.button-suscrib{
+    margin-top: 2rem;
+}
+.icons{
+    color:#FDF3FF;
+    font-size: 2rem;
+    text-align: right;
+}
+.icons span{
+    padding: 10px;
+    margin-right: 10px;
 }
