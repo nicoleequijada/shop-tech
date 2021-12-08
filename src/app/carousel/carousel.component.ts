@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dataCarousel } from 'src/utils/Datacarousel';
 
 @Component({
   selector: 'app-carousel',
@@ -9,7 +10,7 @@ export class CarouselComponent implements OnInit {
   
 
   constructor() { }
-
+  dataCarousel = dataCarousel;
   ngOnInit(): void {
   }
 

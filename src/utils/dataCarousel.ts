@@ -5,7 +5,7 @@ export const dataCarousel = [
         "description":"pantalla6.0 color gold rose" ,
         "price":1200000,
         "active":true,
-        "img":"https://i.postimg.cc/gkbwKsXs/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        "img":"https://i.postimg.cc/bNDkwdXD/3.png"
     },
     {
         "id":2,
@@ -13,7 +13,7 @@ export const dataCarousel = [
         "description":"modelo 3" ,
         "price":1200000,
         "active":false,
-        "img":"https://i.postimg.cc/J0ZsLDgj/Screen-Shot-2021-12-06-at-2-04-25-PM-removebg-preview.png"
+        "img":"https://i.postimg.cc/T1Sbcvb3/5.png"
     },
     {
         "id":3,
@@ -21,7 +21,7 @@ export const dataCarousel = [
         "description":"M1" ,
         "price":1200000,
         "active":false,
-        "img":"https://i.postimg.cc/G2BBXSx7/Screen-Shot-2021-12-06-at-1-36-50-PM-removebg-preview.png"
+        "img":"https://i.postimg.cc/8knLGMYg/2.png"
     },
     {
         "id":4,
@@ -29,6 +29,6 @@ export const dataCarousel = [
         "description":"pantalla6.0" ,
         "price":1200000,
         "active":false,
-        "img":"https://i.postimg.cc/gkbwKsXs/Screen-Shot-2021-12-06-at-1-51-51-PM-removebg-preview.png"
+        "img":"https://i.postimg.cc/dtbdkvvW/4.png"
     },
 ]
