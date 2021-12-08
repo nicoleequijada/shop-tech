@@ -5,48 +5,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.postimg.cc/rpyHP8Q2/Screen-Shot-2021-12-06-at-1-39-45-PM-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="col" *ngFor="let last of lastUnits">
+            <div class="card" style="width: 18rem; height: 28rem;">
+                <img src="{{last.img}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">{{last.name}}</h5>
+                    <p class="card-text">{{last.description}}</p>
                     <button type="button" class="btn btn-outline-primary button-add">¡Lo quiero!</button>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.postimg.cc/Px9FJ1hd/Screen-Shot-2021-12-06-at-2-01-25-PM-removebg-preview.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button type="button" class="btn btn-outline-primary button-add">¡Lo quiero!</button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.postimg.cc/wjQP2t5k/Screen-Shot-2021-12-06-at-1-31-48-PM-removebg-preview.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button type="button" class="btn btn-outline-primary button-add">¡Lo quiero!</button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.postimg.cc/d0WfMzxk/Screen-Shot-2021-12-06-at-1-36-50-PM-removebg-preview.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button type="button" class="btn btn-outline-primary button-add">¡Lo quiero!</button>
-                </div>
-            </div>
-        </div>
-        
-        
+
     </div>
     
 </div>

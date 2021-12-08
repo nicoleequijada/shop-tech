@@ -1,5 +1,5 @@
 
-export const products =  [
+export const lastUnits =  [
     {
         "id":1,
         "name":"iPhone 13 pro",
@@ -30,32 +30,5 @@ export const products =  [
         "price":560000,
         "promotion":true,
         "img":"https://i.postimg.cc/KvnscKWy/Screen-Shot-2021-12-06-at-1-57-46-PM-removebg-preview.png"
-    },
-    {
-        "id":5,
-        "name":"MacBook pro",
-        "description":"MacBook Pro 13 M1 8GB RAM 256GB SSD Gold Touch Bar" ,
-        "price":190000,
-        "img":"https://i.postimg.cc/G2BBXSx7/Screen-Shot-2021-12-06-at-1-36-50-PM-removebg-preview.png"
-    },{
-        "id":6,
-        "name":"Samsung note 3",
-        "description":"pantalla6.0" ,
-        "price":"1.230.000",
-        "img":"https://i.postimg.cc/Dzw4XzJK/Screen-Shot-2021-12-06-at-1-31-48-PM-removebg-preview.png"
-    },{
-        "id":7,
-        "name":"iphone XS",
-        "description":"pantalla6.0" ,
-        "price":"1.230.000",
-        "img":"https://i.postimg.cc/N0C97wm2/Screen-Shot-2021-12-06-at-1-39-45-PM-removebg-preview.png"
-    },{
-        "id":8,
-        "name":"Apple Watch",
-        "description":"Serie SE" ,
-        "price":"1.230.000",
-         "promotion":true,
-        "img":"https://i.postimg.cc/ncKXSmqJ/Screen-Shot-2021-12-06-at-1-41-40-PM-removebg-preview.png"
     }
-
 ]

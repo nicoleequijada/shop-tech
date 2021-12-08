@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { lastUnits } from 'src/utils/lastUnits';
 
 @Component({
   selector: 'app-last-units',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class LastUnitsComponent implements OnInit {
 
   constructor() { }
+  lastUnits = lastUnits
 
   ngOnInit(): void {
   }

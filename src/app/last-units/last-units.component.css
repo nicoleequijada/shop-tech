@@ -13,6 +13,9 @@
     font-weight: 500;
     padding-bottom: 5%;
 }
+.last-units button{
+   text-align: center;
+}
 
 .button-add{
     margin-top: 5%;
