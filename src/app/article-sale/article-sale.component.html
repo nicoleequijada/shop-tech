@@ -9,7 +9,7 @@
                     <img src="{{product.img}}" class="img-fluid rounded w-100">
                 </div>
                 <div class="card-body description">
-                    <h5 class="card-title">{{product.name}}</h5>
+                    <h5 class="card-title" *ngIf="product.promotion">{{product.name}}</h5>
                     <p class="card-text">{{product.description}}</p>
                     <p class="card-text">Precio: {{product.price}}$</p>
                     
