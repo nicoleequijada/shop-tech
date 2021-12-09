@@ -3,31 +3,31 @@
     text-align: center;
 }
 .img{
-    width: 60%;
-   
-   
+    max-width: 60%;
+    
+    
 }
 .items{
     margin-bottom: 6%;
     align-items: center;
     box-shadow: 5px 5px 4px #0b164152;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     
 }
 .items:hover{
     cursor: pointer;
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
 }
-.description h5 p a{
+.description h5, p, a{
     align-items: center;
+    text-align: center;
 }
 .button-add{
-    margin-top: 5%;
     color: #4b3863;
     border: 1px solid #4b3863;
     background-color: white;
@@ -36,38 +36,16 @@
     color:#FDF3FF;
     background-color: #C471D3 ;
 }
-.contcinta{
-  margin-left: 230%;
+.article-image img{
+    height: 200px;
 }
-.cintaver {
-    position:relative;
-    width:50px;
-    height:40px;
-    background: #9a0808;
-    background: linear-gradient(to bottom, #9e0b0b 0%,#bf3624 3%,#9a0808 13%,#9a0808 18%,#c43b29 60%,#bc2e1e 74%,#9a0808 100%,#9a0808 100%);
+
+.card-footer{
+    background-color: transparent;
+    border-top: 0;
+}
+@media (max-width: 500px){
+    .items{
+        margin-left: 15%;
     }
-    .cintaver:before {
-        position:relative;
-        top:40px;
-        display:block;
-        width:0;
-        height:0;
-        border-width: 25px;
-        border-style:solid;
-        border-color:#9A0808 #9A0808 transparent #9A0808;
-        content:"";
-        
-        }
-        .cintaver:after {
-            position:absolute;
-            top: 0;
-            left: 0px;
-            padding: 10px 0 0 0;
-            width: 50px;
-            height:70px;  
-            color:#FDF3FF;         
-            content: "OFERTA";  
-            text-align:center;
-            text-shadow: 1px 0px  #cc3d29;
-            font:normal bold 0.5rem arial, serif;
-            }
+}

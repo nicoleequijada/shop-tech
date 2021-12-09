@@ -31,3 +31,12 @@ padding: 0.5rem;
     padding: 10px;
     margin-right: 10px;
 }
+@media (max-width: 500px){
+    .title-suscripciones h4, h5{
+        font-weight: 0;
+        font-size: 1rem;
+    }
+    .icons{
+        margin-top:10px;
+    }
+}

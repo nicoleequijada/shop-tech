@@ -1,23 +1,24 @@
-<div class="item-title">
-    <h2>Articulos mas comprados</h2>
+<div id="article-sale" class="item-title">
+    <h2>Artículos más comprados</h2>
 </div>
 <div class="container-fluid">
     <div class="row">
         <div class="col" *ngFor="let product of productsSale">
-            <div class="card items" style="width: 18rem; height: 28rem;">
-                <div *ngIf="product.promotion">
-                    <div class="contcinta">
-                        <div class="cintaver"></div>
-                    </div>
+            <div class="card items" style="width: 18rem; height: 26rem;">
+                <div class="text-center article-image">
+                    <img src="{{product.img}}" class="img-fluid rounded w-100">
                 </div>
-                <img src="{{product.img}}" class="card-img-top img">
-                <div class="card-body">
+                <div class="card-body description">
                     <h5 class="card-title">{{product.name}}</h5>
                     <p class="card-text">{{product.description}}</p>
-                    <p class="card-text">{{product.price}}$</p>
+                    <p class="card-text">Precio: {{product.price}}$</p>
                     
+                    
+                </div>
+                <div class="card-footer text-center">
                     <button type="button" class="btn btn-primary button-add">¡Lo quiero!</button>
                 </div>
+                
             </div>
             
         </div> 

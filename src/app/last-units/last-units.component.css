@@ -1,9 +1,7 @@
 .last-units{
     margin-top: 10%;
 }
-.last-units img{
-    width: 60%;
-}
+
 .last-units h5, p{
     text-align: center;
 }
@@ -16,14 +14,34 @@
 .last-units button{
    text-align: center;
 }
+.last-units img{
+    max-width: 60%;
+    margin-left: 25%;
+}
+
 
 .button-add{
     margin-top: 5%;
     color: #4b3863;
     border: 1px solid #4b3863;
    justify-content: center;
+   margin-left: 25%;
 }
 .button-add:hover{
     color:#FDF3FF;
     background-color: #C471D3 ;
+}
+.items{
+    box-shadow: 5px 5px 4px #0b164152;
+}
+.article-image img{
+    height: 200px;
+}
+
+
+@media (max-width: 500px){
+    .items{
+        margin-left: 18%;
+        box-shadow: 5px 5px 4px #0b164152;
+    }
 }

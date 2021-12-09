@@ -20,19 +20,48 @@
 .icons{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    
 }
 .icons button{
     background-color: transparent;
     border: transparent;
     color: #FDF3FF;
-    width: 15%;
+
 }
 .icons button:hover{
     box-shadow:2px 2px 2px 2px rgba(1, 1, 1, 0.2);
 }
 .icons span{
     font-size: 1.5rem;
-   color: #FDF3FF;
-   margin-left: 8%;
-   
+    color: #FDF3FF;
+    margin-left: 5%;
+    
+}
+
+@media (max-width: 768px){
+    .search{
+        width: 70%;
+        margin-left: 80px;
+    }
+    @media (max-width: 500px){
+        .header{
+            height: 10vh;
+        }
+       .header h1 {
+           font-size: 0.8rem
+       }
+       .search{
+        padding: 0;
+        font-size: 0.5rem;
+        margin-left: 30%;
+       }
+       .icons span{
+           font-size: 0.5rem;
+       }
+       .icons button{
+        font-size: 0.5rem;
+       }
+    }  
+
 }

@@ -9,3 +9,12 @@
     font-size: 2.5rem;
     color: #C471D3;
 }
+@media (max-width: 500px){
+    .options span{
+        font-size: 1.2rem;
+    }
+   .options{
+       height: fit-content;
+   }
+
+}

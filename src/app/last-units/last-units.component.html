@@ -1,13 +1,15 @@
 <div class="container-fluid last-units">
     <div class="row">
-        <div class="col">
-            <h2>ULTIMAS UNIDADES</h2>
+        <div id="last-units" class="col">
+            <h2>ÚLTIMAS UNIDADES</h2>
         </div>
     </div>
     <div class="row">
         <div class="col" *ngFor="let last of lastUnits">
-            <div class="card" style="width: 18rem; height: 28rem;">
-                <img src="{{last.img}}" class="card-img-top" alt="...">
+            <div class="card items" style="width: 18rem; height: 28rem; margin-bottom: 10px;">
+                <div class="text-center article-image">
+                    <img src="{{last.img}}" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">{{last.name}}</h5>
                     <p class="card-text">{{last.description}}</p>
